@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	metrics "github.com/yvasiyarov/go-metrics"
+	metrics "github.com/launchdarkly/go-metrics"
 	"github.com/yvasiyarov/newrelic_platform_go"
 )
 

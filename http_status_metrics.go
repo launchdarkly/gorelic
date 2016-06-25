@@ -3,7 +3,7 @@ package gorelic
 import (
 	"fmt"
 
-	"github.com/yvasiyarov/go-metrics"
+	"github.com/launchdarkly/go-metrics"
 	"github.com/yvasiyarov/newrelic_platform_go"
 )
 

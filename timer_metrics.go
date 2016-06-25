@@ -1,7 +1,7 @@
 package gorelic
 
 import (
-	metrics "github.com/yvasiyarov/go-metrics"
+	metrics "github.com/launchdarkly/go-metrics"
 	"time"
 )
 

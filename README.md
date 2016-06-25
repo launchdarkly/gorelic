@@ -7,7 +7,7 @@ send them to NewRelic.
 - Go 1.1 or higher
 - github.com/yvasiyarov/gorelic
 - github.com/yvasiyarov/newrelic_platform_go
-- github.com/yvasiyarov/go-metrics
+- github.com/launchdarkly/go-metrics
 
 You have to install manually only first two dependencies. All other dependencies will be installed automatically 
 by Go toolchain.   
