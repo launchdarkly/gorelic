@@ -36,6 +36,10 @@ const (
 	DefaultAgentName = "Go daemon"
 )
 
+var(
+	r = metrics.NewPrefixedChildRegistry(metrics.DefaultRegistry, "newrelic.")
+)
+
 //Agent - is NewRelic agent implementation.
 //Agent start separate go routine which will report data to NewRelic
 type Agent struct {

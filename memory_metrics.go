@@ -7,8 +7,6 @@ import (
 )
 
 func newMemoryMetricaDataSource(pollInterval int) goMetricaDataSource {
-	r := metrics.NewRegistry()
-
 	metrics.RegisterRuntimeMemStats(r)
 	metrics.CaptureRuntimeMemStatsOnce(r)
 	go metrics.CaptureRuntimeMemStats(r, time.Duration(pollInterval)*time.Second)

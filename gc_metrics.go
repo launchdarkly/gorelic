@@ -7,8 +7,6 @@ import (
 )
 
 func newGCMetricaDataSource(pollInterval int) goMetricaDataSource {
-	r := metrics.NewRegistry()
-
 	metrics.RegisterDebugGCStats(r)
 	go metrics.CaptureDebugGCStats(r, time.Duration(pollInterval)*time.Second)
 	return goMetricaDataSource{r}
