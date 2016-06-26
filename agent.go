@@ -36,7 +36,7 @@ const (
 	DefaultAgentName = "Go daemon"
 )
 
-var(
+var (
 	r = metrics.NewPrefixedChildRegistry(metrics.DefaultRegistry, "newrelic.")
 )
 
