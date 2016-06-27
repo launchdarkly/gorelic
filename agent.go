@@ -37,7 +37,7 @@ const (
 )
 
 var (
-	r = metrics.NewPrefixedChildRegistry(metrics.DefaultRegistry, "newrelic.")
+	r = metrics.NewPrefixedChildRegistry(metrics.DefaultRegistry, "go.")
 )
 
 //Agent - is NewRelic agent implementation.
