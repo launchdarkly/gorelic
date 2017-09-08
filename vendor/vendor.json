@@ -1,0 +1,17 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "EmZsYyedidQOXAh+i0Vg3e2Es9M=",
+			"path": "github.com/launchdarkly/go-metrics",
+			"revision": "bf187e1c5051d95276fa2ea849d7ebc8ecbecbe4"
+		},
+		{
+			"checksumSHA1": "/9VouHqPf0ad+TcMGqhPssfoLb0=",
+			"path": "github.com/yvasiyarov/newrelic_platform_go",
+			"revision": "9c099fbc30e90de5bb5c5f94aa5fd08f2daeaacd"
+		}
+	],
+	"rootPath": "github.com/launchdarkly/gorelic"
+}
